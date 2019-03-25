@@ -6,11 +6,11 @@ product_name = "Cube"
 
 # Edit the below variables to match correct database settings
 db_type = 'postgresql'
-db_user = 'postgres'
+db_user = 'dwokggtw'
 db_password = secret.database_password
-db_url = 'localhost'
+db_url = 'balarama.db.elephantsql.com'
 db_port = '5432'
-db_name = 'eut-auth'
+db_name = 'dwokggtw'
 
 db_connection_string = "%s://%s:%s@%s:%s/%s" % (db_type, db_user, db_password, db_url, db_port, db_name)
 
