@@ -7,8 +7,7 @@ from schema import schema
 import config
 
 app = Flask(__name__)
-CORS(app)
-app.debug = True
+app.debug = False
 
 app.add_url_rule(
     '/auth',

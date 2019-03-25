@@ -17,7 +17,7 @@ db_connection_string = "%s://%s:%s@%s:%s/%s" % (db_type, db_user, db_password, d
 
 # Flask settings
 flask_host = "0.0.0.0"
-flask_port = 5000
+flask_port = 80
 
 
 # Other microservices' IPs
