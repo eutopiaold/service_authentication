@@ -21,7 +21,7 @@ flask_port = 5000
 
 
 # Other microservices' IPs
-send_mail = "http://localhost:5001/send-mail"
+send_mail = "http://ec2-3-86-97-218.compute-1.amazonaws.com/send-mail"
 send_mail_password = secret.send_mail_password
 
 
